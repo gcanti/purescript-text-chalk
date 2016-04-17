@@ -1,0 +1,21 @@
+{
+  "name": "purescript-text-chalk",
+  "version": "0.0.1",
+  "description": "PureScript bindings to chalk library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcanti/purescript-text-chalk.git"
+  },
+  "author": "Giulio Canti <giulio.canti@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcanti/purescript-text-chalk/issues"
+  },
+  "homepage": "https://github.com/gcanti/purescript-text-chalk",
+  "dependencies": {
+    "purescript": "^0.8.4"
+  },
+  "scripts": {
+    "docs": "psc-docs \"src/**/*.purs\" \"bower_components/*/src/**/*.purs\" --docgen Text.Chalk:docs/Text.Chalk.md"
+  }
+}
